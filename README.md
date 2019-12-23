@@ -6,7 +6,7 @@
 
 (1)
 
-The possible solution can be that we extract so-called nodes with locations (left or right). To find the location, I would extract the operation character (+, \*, /, -, etc.) with the highest precedence and then would consider the right side of the expression as right location and left side of the expression as left location. I would do this same operation recursively always from the left side until all operational characters are covered. Moreover, create a node class with variables as following:
+The possible solution can be that we extract so-called nodes with locations (left or right) from the string. To find the location, I would extract the operation character (+, \*, /, -, etc.) with the highest precedence and then would consider the right side of the expression as right location and left side of the expression as left location. I would do this same operation recursively always from the left side until all operational characters are covered. Moreover, create a node class with variables as following:
 
 - type (String)
 - value (Float)
