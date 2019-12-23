@@ -1,8 +1,8 @@
 **Programming Challenge Solution**
 
-**Formulas:**
-
 ** **
+
+**Formulas:**
 
 (1)
 
@@ -48,7 +48,7 @@ In the case of interpretation, the operations or functions used in the formula w
     - If condition matches, send to cache module
     - Else, set the frequency
 
-- Cache Module
+- Cache Module:
     - Get input
     - Set input
     - Store input
