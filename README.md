@@ -42,6 +42,7 @@ In the case of interpretation, the operations or functions used in the formula w
     - If no, send to threshold module
 
 - Threshold Module
+
       - Get input
       - Get frequency
       - Check the frequency
