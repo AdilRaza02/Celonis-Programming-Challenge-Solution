@@ -4,7 +4,7 @@
 
 ** **
 
-** ** (1)
+(1)
 
 The possible solution can be that we extract so-called nodes with locations (left or right). To find the location, I would extract the operation character (+, \*, /, -, etc.) with the highest precedence and then would consider the right side of the expression as right location and left side of the expression as left location. I would do this same operation recursively always from the left side until all operational characters are covered. Moreover, create a node class with variables as following:
 
@@ -37,18 +37,11 @@ In the case of interpretation, the operations or functions used in the formula w
 **Functions to be implemented:**
 
 - Identification Module:
-
--
-  -
     - Get input
     - Check if it is already in the cache module
     - If no, send to threshold module
 
 - Threshold Module
-
--
-  -
-    -
       - Get input
       - Get frequency
       - Check the frequency
@@ -56,9 +49,6 @@ In the case of interpretation, the operations or functions used in the formula w
       - Else, set the frequency
 
 - Cache Module
-
--
-  -
     - Get input
     - Set input
     - Store input
@@ -81,7 +71,7 @@ The time complexity of the algorithm completely depends on how the searching sui
 
 - Analyse all adjacent nodes distance and find the node with the shortest distance.
 - Mark that node as visited by popping it from the queue.
-- Update the object (the node which we are analyzing from) by assigning the shortest path adjacent node in the previous variable of the object.
+- Update the object (the node which we are analyzing from) by assigning the shortest path adjacent node in the previous variable of the   object.
 - Track the parent node.
 
 The expected time complexity is going to be the following:
@@ -116,13 +106,13 @@ Its high-level architecture is divided into five different segments.
 
 (2)
 
-· The mountComponent calls the render function to compile the template and simultaneously pass the dependencies of that component to the Watcher (Observer) to apply it to the DOM. This method is directly linked to the State management where changes are observed and Render system where the template is compiled and rendered on the browser.
+- The mountComponent calls the render function to compile the template and simultaneously pass the dependencies of that component to the Watcher (Observer) to apply it to the DOM. This method is directly linked to the State management where changes are observed and Render system where the template is compiled and rendered on the browser.
 
-· The compiler consists of three main methods. The parser which converts the template string to Abstract syntax tree string. The optimizer which identifies the static parts that are used by renderer at a later stage to optimize the rendering process. A generator which combines Parser and Optimizer outputs. This is part of the Render system.
+- The compiler consists of three main methods. The parser which converts the template string to Abstract syntax tree string. The optimizer which identifies the static parts that are used by renderer at a later stage to optimize the rendering process. A generator which combines Parser and Optimizer outputs. This is part of the Render system.
 
-· The initMixin is the first entry point of the code, where all required dependencies such as props, methods and variables to run the framework are defined. This is part of the Build system.
+- The initMixin is the first entry point of the code, where all required dependencies such as props, methods and variables to run the framework are defined. This is part of the Build system.
 
-· The initState consists of all required dependencies related to state management such as props, methods and watcher functions are defined. This is part of the State management system.
+- The initState consists of all required dependencies related to state management such as props, methods and watcher functions are defined. This is part of the State management system.
 
 (3)
 
@@ -134,6 +124,6 @@ According to their GitHub repository following are the community guidelines:
 - Multiple small commits are acceptable.
 - Always pass the npm test.
 - To add a new feature, add the test case and a reason to add the new feature.
-- To fix a bug, add issue id along in the PR title, add a detailed description if possible add the demo. and also add test coverage if applicable.
+- To fix a bug, add issue id along in the PR title, add a detailed description if possible add the demo. and also add test coverage if     applicable.
 
 The project is maintained by a small core team and a 300+ open source community. Mostly, the development is done on GitHub platform by using the Pull Request mechanism.
