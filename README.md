@@ -41,12 +41,12 @@ In the case of interpretation, the operations or functions used in the formula w
     - Check if it is already in the cache module
     - If no, send to threshold module
 
-- Threshold Module
-      - Get input
-      - Get frequency
-      - Check the frequency
-      - If condition matches, send to cache module
-      - Else, set the frequency
+- Threshold Module:
+    - Get input
+    - Get frequency
+    - Check the frequency
+    - If condition matches, send to cache module
+    - Else, set the frequency
 
 - Cache Module
     - Get input
